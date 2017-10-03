@@ -44,6 +44,20 @@ public class ItemsInitializationAndTest {
             System.out.println("Description of " + item.getName() + ": " + item.getDescription()
                     + (item instanceof NonDisposable ? "(Cannot be dropped)" : ""));
         }
+
+        //Checking if certain character can use items from the list.
+
+        Character character = new Character(
+                "Playable character",
+                29,
+                new Stat[]{new Stat(Attribute.STRENGTH, 15),
+                        new Stat(Attribute.AGILITY, 10),
+                        new Stat(Attribute.INTELLIGENCE, 40)});
+
+        for (Item item : areaItems) {
+            System.out.println(character.getName()
+                    + (character.canUse(item) ? " can use " : " cannot use ") + item.getName() + ".");
+        }
     }
 
 }
