@@ -11,7 +11,7 @@ import items.weapon.PlasmaRifle;
 /**
  * Class with method main for initialization of items.
  */
-public class ItemsInitialization {
+public class ItemsInitializationAndTest {
 
     public static void main(String[] args) {
 
