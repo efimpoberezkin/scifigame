@@ -12,6 +12,7 @@ public final class RingOfIntelligence extends Accessory {
                 "Ring that increases Intelligence.",
                 0.5,
                 30,
+                //TODO: Class PassiveEffect should be abstract, this would be an array of its subclasses' objects.
                 new PassiveEffect[]{new PassiveEffect("Intelligence increase")});
     }
 

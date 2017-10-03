@@ -12,6 +12,7 @@ public final class Antidote extends Consumable {
                 "Cures poison.",
                 1.0,
                 10,
+                //TODO: Class Effect should be abstract, this would be an array of its subclasses' objects.
                 new Effect[]{new Effect("Remove poison")});
     }
 
