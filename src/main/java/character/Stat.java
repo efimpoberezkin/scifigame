@@ -2,6 +2,7 @@ package character;
 
 /**
  * Class for pairs of attributes and values.
+ * Similar to AttributeRequirement in current implementation but may differentiate in future.
  */
 public class Stat {
 
