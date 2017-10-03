@@ -20,5 +20,5 @@ public class Stat {
     public int getValue() {
         return value;
     }
-    
+
 }
