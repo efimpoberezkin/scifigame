@@ -3,12 +3,13 @@ package items.weapon;
 import character.AttributeRequirement;
 import interaction.DamageByType;
 import interaction.PassiveEffect;
+import items.HasRequirements;
 import items.RegularItem;
 
 /**
  * Superclass for different kinds of weapon classes.
  */
-public abstract class Weapon extends RegularItem {
+public abstract class Weapon extends RegularItem implements HasRequirements {
 
     private DamageByType[] damageByTypes;
     private int levelRequirement;

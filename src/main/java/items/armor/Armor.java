@@ -3,12 +3,13 @@ package items.armor;
 import character.AttributeRequirement;
 import interaction.DefenseByDamageType;
 import interaction.PassiveEffect;
+import items.HasRequirements;
 import items.RegularItem;
 
 /**
  * Superclass for final classes of armor, for example: MercenaryGloves, PilotVisor.
  */
-public abstract class Armor extends RegularItem {
+public abstract class Armor extends RegularItem implements HasRequirements {
 
     private ArmorPart armorPart;
     private DefenseByDamageType[] defenseByDamageTypes;
