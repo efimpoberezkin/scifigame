@@ -1,3 +1,6 @@
+import character.Attribute;
+import character.Character;
+import character.Stat;
 import items.Item;
 import items.KeyItem;
 import items.NonDisposable;
